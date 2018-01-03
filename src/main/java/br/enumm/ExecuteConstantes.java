@@ -1,6 +1,6 @@
 package br.enumm;
 
-public class Teste {
+public class ExecuteConstantes {
 	public static void main(String[] args) {
 		usandoConstantes();
 	}
@@ -15,16 +15,16 @@ public class Teste {
 		int domingo = DiaSemanaConstantes.DOMINGO;
 		
 		System.out.println("Teste utilizando constantes no Java");
-		imprimiDiaSemana(seguda);
-		imprimiDiaSemana(terca);
-		imprimiDiaSemana(quarta);
-		imprimiDiaSemana(quinta);
-		imprimiDiaSemana(sexta);
-		imprimiDiaSemana(sabado);
-		imprimiDiaSemana(domingo);
+		imprimiDiaSemanaCons(seguda);
+		imprimiDiaSemanaCons(terca);
+		imprimiDiaSemanaCons(quarta);
+		imprimiDiaSemanaCons(quinta);
+		imprimiDiaSemanaCons(sexta);
+		imprimiDiaSemanaCons(sabado);
+		imprimiDiaSemanaCons(domingo);
 	}
 	
-	private static void imprimiDiaSemana(int dia) {
+	private static void imprimiDiaSemanaCons(int dia) {
 		switch (dia) {
 		case 1:
 			System.out.println("Segunda-feira");
